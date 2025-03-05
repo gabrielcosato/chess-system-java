@@ -1,0 +1,8 @@
+# Força o GitHub a reconhecer arquivos .java como Java
+*.java linguist-language=Java
+
+# Ignora arquivos de configuração, que podem estar influenciando a detecção da linguagem
+*.xml ignore-linguist
+*.yml ignore-linguist
+*.json ignore-linguist
+*.md ignore-linguist
